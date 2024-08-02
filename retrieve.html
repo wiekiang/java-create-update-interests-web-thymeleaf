@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Retrieve</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form th:object="${interest}" th:action="@{/uiinterests}+'/'+${interest.id}" method="post">
+            <input th:field="${interest.id}" type="text"> 
+            <input th:field="${interest.name}" type="text"> 
+            <input type="Submit" value="Update"/>
+        </form>
+    </body>
+</html>
