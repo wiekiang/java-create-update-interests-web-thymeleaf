@@ -68,9 +68,9 @@ class InterestController {
 
 ```
 @SpringBootApplication
-public class Wk4TuteConsumingInterests_Thymeleaf {
+public class App {
     public static void main(String[] args) {
-        SpringApplication.run(Wk4TuteConsumingInterests_Thymeleaf.class, args);
+        SpringApplication.run(App, args);
     }
 }
 ```
